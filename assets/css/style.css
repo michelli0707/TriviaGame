@@ -1,0 +1,77 @@
+html {
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 18px;
+      text-align: left;
+      text-shadow: 3px;
+      color: whitesmoke;
+  }
+
+  .jumbotron {
+    background-image: url("../images/skies.jpg");
+    padding-top: 85px;
+    padding-bottom: 85px;
+    height: auto;
+    background-position: center;
+    width: 100%;
+  }
+
+  .jumbotron h1 {
+    text-align: center;
+  }
+
+  .container {
+      text-align: center;
+      text-shadow: 2px;
+  }
+  
+  .footer {
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 3px;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 1.5em;
+    bottom: 0;
+    margin: 0 auto;
+    border-top: solid black;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 980px){
+    .img-responsive {
+      margin-left: 175px;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .img-responsive {
+      margin-left: 170px;
+  }
+
+}
+
+
+@media only screen and (max-width: 640px){
+
+  h2 {
+      margin-left: 70px;
+  }
+
+    .img-responsive {
+      margin-left: 150px;
+  }
+
+}

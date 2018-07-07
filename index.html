@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>The Trivia Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Geo' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        
+            <h1>The Trivia Game</h1>
+
+    <div class="container">
+        <button class="start" id="startbutton" onclick="startButton()">Start</button>
+        <center><img id="thinker" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_grande.png?v=1469791175"/></center>
+     </div>
+        
+        <!-- Questions and Answers -->
+        <div class="Questions" id="Question"></div>
+          <button class="Answers" id="1" onclick="checkAnswer(1)"></button>
+          <button class="Answers" id="2" onclick="checkAnswer(2)"></button>
+          <button class="Answers" id="3" onclick="checkAnswer(3)"></button>
+          <button class="Answers" id="4" onclick="checkAnswer(4)"></button>
+      <br>
+      <br>
+          <b><p id="preScore">Score:</p>
+          <p id="theScore"><span id="score"></span><span>/4</span></p></b>
+     </div>
+    
+
+    <!-- Link to javascript game.js -->
+
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>
