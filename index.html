@@ -22,31 +22,31 @@
 
 <body>
 
-    <div class="jumbotron">
-        
+    <div class="jumbotron text-center">
+
             <h1>The Trivia Game</h1>
 
-    <div class="container">
-        <button class="start" id="startbutton" onclick="startButton()">Start</button>
-        <center><img id="thinker" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_grande.png?v=1469791175"/></center>
-     </div>
+                <div id="sub-wrapper">
+
+                    <div id="quiz-area">
+                        
+                    <button id="start">Start</button>
+                    <br>
+                    
+                    <center><img id="thinker" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExmHlak-X8q9CiKvptx9JtxJQzGJr_C_os5wjpZeablnmPoSVFg"/></center>
+                   
+                    <br>
+                    <button id="done">DONE</button>
+                    
+                    </div>
+                </div>
         
-        <!-- Questions and Answers -->
-        <div class="Questions" id="Question"></div>
-          <button class="Answers" id="1" onclick="checkAnswer(1)"></button>
-          <button class="Answers" id="2" onclick="checkAnswer(2)"></button>
-          <button class="Answers" id="3" onclick="checkAnswer(3)"></button>
-          <button class="Answers" id="4" onclick="checkAnswer(4)"></button>
-      <br>
-      <br>
-          <b><p id="preScore">Score:</p>
-          <p id="theScore"><span id="score"></span><span>/4</span></p></b>
-     </div>
-    
+        </div>
 
-    <!-- Link to javascript game.js -->
 
-    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+    <!-- Link to javascript apps.js -->
+
+    <script type="text/javascript" src="./assets/javascript/apps.js"></script>
 
 </body>
 

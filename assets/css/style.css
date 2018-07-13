@@ -9,11 +9,11 @@ html {
       font-size: 18px;
       text-align: left;
       text-shadow: 3px;
-      color: whitesmoke;
+      color: black;
   }
 
   .jumbotron {
-    background-image: url("../images/skies.jpg");
+    background-color: deepskyblue;
     padding-top: 85px;
     padding-bottom: 85px;
     height: auto;
@@ -25,25 +25,18 @@ html {
     text-align: center;
   }
 
+  #sub-wrapper {
+    background-image: url('../images/skies.jpg');
+    color: white;
+    text-shadow: 5px;
+    text-decoration-color: blue;
+  }
+
   .container {
       text-align: center;
       text-shadow: 2px;
   }
   
-  .footer {
-    right: 0;
-    left: 0;
-    bottom: 0;
-    position: relative;
-    text-align: center;
-    text-shadow: 3px;
-    font-size: 20px;
-    color: whitesmoke;
-    padding: 1.5em;
-    bottom: 0;
-    margin: 0 auto;
-    border-top: solid black;
-}
 
 /*MEDIA QUERIES*/
 
